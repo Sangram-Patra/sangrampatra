@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.bar{
+ height: 70px;
+ width: 100%;
+background: rgb(167, 132, 80);
+}
+.img{
+   
+   height:100Px;
+   width: 100px;
+   border-radius: 30%;
+   margin:5px 18px;
+   padding: 15px;
+}
+.imgf{
+    height:100Px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0px 29px;
+    padding: 65px;
+}
