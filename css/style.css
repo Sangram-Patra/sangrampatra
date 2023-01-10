@@ -1,0 +1,173 @@
+
+body{
+    margin:auto;
+    padding:0;
+    display: flex;
+}
+/* -------------------header ------------------------------*/
+.nav{
+    background-color: #ff000075;
+    width:200px;
+    height:100vh;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 900;
+    color:black;
+    display:flex;
+    flex-direction: column;
+}
+.nav nav ul{
+    list-style: none;
+    font-size: 30px;
+    padding: 93px 10px;
+}
+.nav nav ul li a{
+    text-decoration: none;
+}
+
+/* -------------------main ------------------------------*/
+.main{
+    background-color: #ccdde4;
+    width:90vw
+}
+.infoContainer{
+    margin: 54px 46px;
+    height: 71vh;
+    width: 78vw;
+    background-color: #e6e3e3;
+    display:flex;
+}
+.info-img img{
+    height:71vh;
+}
+.div-info{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+.intro{
+    font-size:65px;
+    font-family: 'Source Serif Pro', serif;
+}
+.name{
+    font-size:40px;
+    font-family: 'Source Serif Pro', serif;
+}
+.about{
+    font-size:25px;
+    font-family: 'Moon Dance', cursive;
+}
+.mb{
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 20px ;
+}
+.mb:hover{
+    background-color: blue;
+    font-size: 20px;
+    
+
+}
+.hangburger{
+    position: absolute;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   cursor: zoom-in;
+}
+/*--------------------footer------------------------------*/
+@media (max-width: 1200px) {
+    *{
+        padding: 5px;
+    }
+   
+    .info-img img{
+        height:60vh;
+    }
+    .infoContainer{
+        height:60vh;
+    }
+    .intro{
+        font-size:45px;
+        font-family: 'Source Serif Pro', serif;
+    }
+    .name{
+        font-size:25px;
+        font-family: 'Source Serif Pro', serif;
+    }
+    .about{
+        font-size:15px;
+        font-family: 'Moon Dance', cursive;
+    }
+}
+@media (max-width:823px) {
+    .info-img img{
+        height:35vh;
+    }
+    .infoContainer{
+        height:45vh;
+    }
+    .intro{
+        font-size:30px;
+        font-family: 'Source Serif Pro', serif;
+    }
+    .name{
+        font-size:17px;
+        font-family: 'Source Serif Pro', serif;
+    }
+    .about{
+        font-size:10px;
+        font-family: 'Moon Dance', cursive;
+    }
+}
+@media (max-width:538px){
+        .info-img>img{
+            width:60vw;
+           
+        }
+        .nav{
+            height:100;
+        }
+        .main{
+            background-color: #ccdde4;
+            width:100vw
+        }
+        .infoContainer{
+            margin: 32px 30px;
+            height: 108vh;
+            width: 77vw;
+            background-color: #e6e3e3;
+            display: flex;
+            flex-direction: column;
+        }
+       
+        .div-info{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            margin-left: 2vw;
+        }
+        .intro{
+            font-size:28px;
+            font-family: 'Source Serif Pro', serif;
+        }
+        .name{
+            font-size:25px;
+            font-family: 'Source Serif Pro', serif;
+        }
+        .about{
+            font-size:15px;
+            font-family: 'Moon Dance', cursive;
+        }
+        .mb{
+            margin-top: 30px;
+            margin-left: 20%;
+            border-radius: 15px ;
+        }
+        .mb:hover{
+            background-color: blue;
+            font-size: 20px;
+            
+        
+        }
+}

@@ -1,0 +1,18 @@
+.contactContainer{
+    display: inline-block;
+    padding: 22px;
+    margin-left: 14px;
+}
+.main-contact{
+    font-family: 'Source Serif Pro', serif;
+    margin: 55px;
+}
+.main-contact div h1{
+    font-size: 40px;
+}
+.location-box{
+    height:20vh;
+    width:50%;
+    justify-content: center;
+    background-color: black;
+}

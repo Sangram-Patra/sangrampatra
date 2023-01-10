@@ -1,0 +1,23 @@
+.skills{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    color: #181516;
+    height:50vh;
+    width:30vw;
+    font:bold;
+}
+.profile{
+    background-color: #cebfbf;
+    height: 66vh;
+    width: 51vw;
+    border-radius: 15%;
+    margin: auto;
+    border-style: dashed;
+    border: 2px solid #ebe3e3;
+}
+.profile-content{
+    margin-left: 20px;
+    color:black;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
